@@ -60,3 +60,7 @@ dump.rdb
 .vscode
 
 **.dec**
+
+# xoracle ignore
+.github/workflows/*
+!.github/workflows/publish-docker-image-every-push
